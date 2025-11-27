@@ -47,21 +47,8 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: [
-      {
-        url: "/favicon.svg",
-        type: "image/svg+xml",
-      },
-      {
-        url: "/favicon-32x32.jpg",
-        sizes: "32x32",
-        type: "image/png",
-      },
-    ],
-    apple: "/apple-touch-icon.jpg",
-  },
-    generator: 'v0.app'
+
+  generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
