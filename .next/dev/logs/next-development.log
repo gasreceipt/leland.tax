@@ -1,0 +1,243 @@
+[00:00:01.864] Server  WARN     ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 5.0.2
+[00:00:01.865] Server  LOG     
+[00:00:01.865] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.865] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.866] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.866] Server  LOG     
+[00:00:01.866] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.866] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.866] Server  LOG     
+[00:00:01.931] Server  LOG      ✓ Ready in 1752ms
+[00:00:09.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.850] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:00:09.850] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.850] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764258741844}
+[00:00:09.850] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:12.192] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:00:12.192] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:00:12.192] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:00:32.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:33.105] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-jetski-tab-id="582996268"
+                        >
+                          <body
++                           className="jetbrains_mono_9cb27804-module__l75u5a__className antialiased"
+-                           className="jetbrains_mono_9cb27804-module__l75u5a__className antialiased antigravity-scrol..."
+                          >
+                  ...
+
+[00:00:33.259] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:33.260] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:33.260] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:33.260] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764258765234}
+[00:00:33.260] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:00:43.461] Browser WARN    Unable to access iframe: {}
+[00:00:47.093] Browser WARN    Unable to access iframe: {}
+[00:04:35.031] Server  LOG      ✓ Compiled in 35ms
+[00:04:51.895] Server  LOG      ✓ Compiled in 40ms
+[00:05:09.423] Server  LOG      ✓ Compiled in 32ms
+[00:05:09.486] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:05:09.487] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:05:52.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:52.634] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-jetski-tab-id="582996268"
+                        >
+                  ...
+
+[00:05:52.634] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:52.634] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:52.634] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259084636}
+[00:05:52.634] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:53.123] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:03.234] Browser WARN    Unable to access iframe: {}
+[00:06:03.609] Browser WARN    Unable to access iframe: {}
+[00:06:08.939] Browser WARN    Unable to access iframe: {}
+[00:06:32.727] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:32.727] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:32.737] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:45.513] Server  LOG      ✓ Compiled in 0ms
+[00:06:45.563] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:45.563] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:45.572] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:06:45.572] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:07:47.885] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:07:47.892] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:07:59.769] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:07:59.769] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:07:59.769] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:06.613] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:06.806] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:06.806] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:06.806] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259218736}
+[00:08:06.806] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:06.806] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:07.917] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:07.917] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:07.917] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:21.406] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:21.409] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:23.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:23.409] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:23.409] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:23.409] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:23.409] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259235415}
+[00:08:23.409] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:34.129] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:34.130] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:40.177] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:40.180] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:08:42.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:42.495] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-jetski-tab-id="582996268"
+                        >
+                  ...
+
+[00:08:42.495] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:42.495] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:42.495] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259254430}
+[00:08:42.495] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:42.495] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:10:21.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:21.587] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         data-jetski-tab-id="582996268"
+                        >
+                  ...
+
+[00:10:21.587] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:21.587] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:10:21.587] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764259353532}
+[00:10:21.587] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:10:21.587] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:10:33.414] Browser WARN    Unable to access iframe: {}
+[00:10:33.804] Browser WARN    Unable to access iframe: {}
+[00:10:41.880] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:10:41.880] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:10:41.881] Browser ERROR   unhandledRejection: TypeError: Cannot read properties of undefined (reading 'match')
+[00:10:42.252] Browser WARN    Unable to access iframe: {}
+[00:10:50.552] Browser WARN    Unable to access iframe: {}
+[00:10:53.241] Browser WARN    Unable to access iframe: {}
+[00:10:53.603] Browser WARN    Unable to access iframe: {}
+[00:10:59.674] Browser WARN    Unable to access iframe: {}

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40187d698ffc06f8475b103684dd202db5648e2f03": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/actions/stripe.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "startCheckoutSession",
+          "filename": "app/actions/stripe.ts"
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "exportedName": "startCheckoutSession",
+      "filename": "app/actions/stripe.ts"
+    }
+  },
+  "edge": {}
+}

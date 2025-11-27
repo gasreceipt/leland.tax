@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[45223,["/_next/static/chunks/bc48fda5432d3724.js","/_next/static/chunks/55603cca65976cc7.js"],"default"]
+3:I[71932,["/_next/static/chunks/bc48fda5432d3724.js","/_next/static/chunks/55603cca65976cc7.js"],"default"]
+4:I[89225,["/_next/static/chunks/f1e68980346fa22d.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"buildId":"CxM1qYp4wJVOQclZdOLyJ","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-white relative overflow-hidden","children":[["$","div",null,{"className":"fixed inset-0 pointer-events-none opacity-[0.03]","children":["$","div",null,{"className":"h-full w-full","style":{"backgroundImage":"\n              linear-gradient(to right, black 1px, transparent 1px),\n              linear-gradient(to bottom, black 1px, transparent 1px)\n            ","backgroundSize":"24px 24px"}}]}],["$","$L2",null,{}],["$","main",null,{"className":"relative z-10 flex items-center justify-center min-h-screen px-3 md:px-4 pb-20 pt-20 md:pt-32","children":["$","$L3",null,{}]}],["$","footer",null,{"className":"fixed bottom-0 left-0 right-0 bg-black text-white py-3 md:py-4 text-center border-t-2 md:border-t-4 border-black z-20","children":["$","p",null,{"className":"font-mono text-xs md:text-sm","children":"Leland.crowd.tax © 2025 — pay Leland your taxes"}]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/55603cca65976cc7.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
